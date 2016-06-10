@@ -10,7 +10,11 @@ $(document).ready(function() {
 
 function convertor(words){
   var nums = [];
-  for(var i=1; i<=words; i++){    
+  for(var i=1; i<=words; i++){
+    if(i%3 === 0){
+      nums.push("ping");
+    }
+    else   
       nums.push(i);
     }
   return nums;
