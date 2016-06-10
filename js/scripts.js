@@ -10,8 +10,7 @@ $(document).ready(function() {
     else{
       $(".output").append("<h3>Please enter a positive integer<h3>");
     }
-
-    $("#story").show();
+    $("#result").show();
     event.preventDefault();
   });
 });

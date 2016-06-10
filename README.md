@@ -27,7 +27,7 @@ _Create a web application that takes a number from a user and returns a range of
     * Input Example: 15
     * Output Example: [1,2,"ping",4,"pong","ping",7,8,"ping","pong",11,"ping",13,14,"pingpong"]
 5. _Only positive integer allowed as an input_
-    * Input Example: "how are you?"
+    * Input Example: "Hello World"
     * Output Example: "Please enter a positive integer"
 
 ## Technologies Used

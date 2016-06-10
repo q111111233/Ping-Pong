@@ -8,19 +8,38 @@
     <title>PingPong</title>
   </head>
 
-  <body>
-    <div class="container">
-      <h2>PingPong</h2>
-      <div id="blank">
-        <form>
-          <div class="form-group">
-            <label for="number">Enter A sentence</label>
-            <input id="number" class="form-control" type="text">
-          </div>
-          <button type="submit" class="btn">Submit</button>
-        </form>
-      </div>
-      <div id= "story">
+<body>
+    <div class="jumbotron">
+      <h1>Ping Pong</h1>
+    </div>
+    <div class="sidebar">
+      <h3><strong>About Ping Pong</strong></h3>
+      <h4 class="orange">Created by:</h4>
+      <h5 class="white">Kit Fisto</h5>
+      <h4 class="orange">GitHub Username/URL:</h4>
+      <h5 class="blue">greensaber</h5>
+      <h4 class="orange">Level 2 Test for:</h4>
+      <h5 class="white">Java</h5>
+    </div>
+    <div id="blank">
+      <form>
+        <h3><strong>Let's play!</strong></h3>
+        <h4><strong>Rules:</strong></h4>
+        <p>Ping Pong will count up to your number from 1 with the following exceptions:
+        </p>
+        <ol>
+          <li>Numbers divisible by 3 are replaced with "ping"</li>
+          <li>Numbers divisible by 5 are replaced with "pong"</li>
+          <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+        </ol>
+        <div class="form-group">
+          <label for="number">Enter your number here:</label>
+          <input id="number" type="text">
+          <button type="submit" class="btn">Ping Pong!</button>
+        </div>
+
+      </form>
+      <div id= "result">
         <ul class="output">
         </ul>
       </div>

@@ -1,3 +1,39 @@
 #story{
   display: none;
 }
+
+.jumbotron{
+  text-align: center;
+  background-color: #F5DFB3;
+}
+
+body{
+  background-color: #E6E6E6;
+}
+
+.sidebar {
+  padding: 10px;
+  width: 25%;
+  top: 240px;
+  height: 1000px;
+  float: left;
+  background-color: #8FBC8E;
+}
+
+#blank {
+  padding: 30px;
+  float: left;
+  width: 60%;
+}
+
+.orange{
+  color: #F8D6A4;
+}
+
+.white{
+  color: #E6EFE9;
+}
+
+.blue{
+  color: #4180B6;
+}
