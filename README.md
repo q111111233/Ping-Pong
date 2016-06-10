@@ -14,13 +14,15 @@ _Create a web application that takes a number from a user and returns a range of
 
 ## Specification
 
-* _It can count up to the provided number_
-    Input Example: 2
-    Output Example: [1,2]
-* _Numbers divisible by 3 are replaced with "pong"_
-    Input Example: 5
-    Output Example: [1,2,3,4,"pong"]
-* _Numbers divisible by 5 are replaced with "pingpong"_
+1. _It can count up to the provided number_
+    *Input Example: 2
+    *Output Example: [1,2]
+2. _Numbers divisible by 3 are replaced with "ping"_
+    *Input Example: 3
+    *Output Example: [1,2,"ping"]
+3. _Numbers divisible by 5 are replaced with "pong"_
+    *Input Example: 5
+    *Output Example: [1,2,"ping",4,"pong"]
 
 ## Technologies Used
 

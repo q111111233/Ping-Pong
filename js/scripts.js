@@ -14,7 +14,10 @@ function convertor(words){
     if(i%3 === 0){
       nums.push("ping");
     }
-    else   
+    else if(i%5 === 0){
+      nums.push("pong");
+    }
+    else
       nums.push(i);
     }
   return nums;
